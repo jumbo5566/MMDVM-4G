@@ -20,4 +20,4 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 #sed -i '$a src-git Aibx https://github.com/Aibx/openwrt-packages' feeds.conf.default
 sed -i '$a src-git mmdvm https://github.com/qzyuebing/mmdvm-openwrt' feeds.conf.default
 #sed -i '$a src-git ssd1306 https://github.com/qzyuebing/hack-ssd1306-openwrt' feeds.conf.default
-#sed -i '$a src-git OLED https://github.com/qzyuebing/rpi-openwrt-packages' feeds.conf.default
+sed -i '$a src-git OLED https://github.com/hallard/ArduiPi_OLED' feeds.conf.default
