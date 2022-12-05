@@ -20,10 +20,6 @@ config interface 'lan'
 	option netmask '255.255.255.0'
 	option ip6assign '60'
 
-config device
-	option name 'eth0.2'
-	option macaddr '40:d6:3c:6a:37:ba'
-
 config interface 'wan'
 	option proto 'dhcp'
 	option device 'eth1'
