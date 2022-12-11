@@ -23,3 +23,4 @@ sed -i '$a src-git smpackage https://github.com/kenzok78/small-package' feeds.co
 sed -i '$a src-git Aibx https://github.com/Aibx/openwrt-packages' feeds.conf.default
 sed -i '$a src-git mmdvm https://github.com/lazywalker/mmdvm-openwrt' feeds.conf.default
 sed -i '$a src-git OLED https://github.com/hallard/ArduiPi_SSD1306' feeds.conf.default
+sed -i '$a src-git MMDVMHost https://github.com/lazywalker/MMDVMHost' feeds.conf.default
