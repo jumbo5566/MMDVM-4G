@@ -12,9 +12,9 @@ config wifi-iface 'default_radio0'
 	option device 'radio0'
 	option network 'lan'
 	option mode 'ap'
-	option encryption 'none'
-	option iw_qos_map_set 'none'
 	option ssid 'MMDVM-4G'
+	option encryption 'psk-mixed'
+	option key 'bh8vyk88888888
 
 config wifi-iface 'trm_uplink2'
 	option device 'radio0'
