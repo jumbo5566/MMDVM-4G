@@ -17,4 +17,4 @@ else
 end
 
 luciname    = "MMDVM"
-luciversion = "2023.2.26"
+luciversion = "2023.2.28"
