@@ -18,11 +18,11 @@ config zone
 	option output 'ACCEPT'
 	option masq '1'
 	option mtu_fix '1'
+	option input 'ACCEPT'
+	option forward 'ACCEPT'
 	list network 'wan'
 	list network 'trm_wwan'
 	list network 'trm_wwan6'
-	option input 'ACCEPT'
-	option forward 'ACCEPT'
 
 config forwarding
 	option src 'lan'
@@ -132,6 +132,11 @@ config rule
 
 config include
 	option path '/etc/firewall.user'
+
+config include 'zerotier'
+	option type 'script'
+	option path '/etc/zerotier.reload'
+	option reload '1'
 
 config include 'passwall'
 	option type 'script'

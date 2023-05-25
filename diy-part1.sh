@@ -19,4 +19,4 @@ sed -i '$a src-git Aibx https://github.com/Aibx/openwrt-packages' feeds.conf.def
 sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.conf.default
 #sed -i '$a src-git mmdvm https://github.com/sgyuebing/mmdvm-openwrt' feeds.conf.default
 sed -i '$a src-git mmdvm https://github.com/lazywalker/mmdvm-openwrt' feeds.conf.default
-sed -i '$a src-git devtools https://github.com/lazywalker/devtools-feeds' feeds.conf.defaul
+sed -i '$a src-git devtools https://github.com/lazywalker/devtools-feeds' feeds.conf.default
