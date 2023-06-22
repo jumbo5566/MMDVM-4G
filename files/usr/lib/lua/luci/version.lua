@@ -17,4 +17,4 @@ else
 end
 
 luciname    = "MMDVM"
-luciversion = "4G TEL"
+luciversion = "4G LTE便携热点"
