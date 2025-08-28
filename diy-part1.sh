@@ -20,4 +20,4 @@ sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.co
 sed -i '$a src-git mmdvm https://github.com/jumbo5566/mmdvm-openwrt' feeds.conf.default
 sed -i '$a src-git direwolf https://github.com/jumbo5566/openwrt-direwolf' feeds.conf.default
 sed -i '$a src-git devtools https://github.com/jumbo5566/devtools-feeds' feeds.conf.default
-sed -i '$a src-git luci-app-oled https://github.com/NateLol/luci-app-oled' feeds.conf.default
+#sed -i '$a src-git lucioled https://github.com/NateLol/luci-app-oled' feeds.conf.default
